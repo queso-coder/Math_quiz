@@ -11,9 +11,9 @@
 </html>
 
 <body>
-    <h4 id="player1_name"></h4> <span id="player1_score"></span>
+    <h4 id="player1_name"></h4> <span id="player1_score"> :0</span>
     <br>
-    <h4 id="player2_name"></h4> <span id="player2_score"></span>
+    <h4 id="player2_name"></h4> <span id="player2_score"> :0</span>
 
     <div class="container">
         <center>
@@ -22,25 +22,17 @@
             <h2 id="player_question">Question Turn - </h2>
             <h2 id="player_answer">Answer Turn - </h2>
 
-            <div id="output" class="col-log-6">
-                <h4 id="question"></h4>
-                <input id="answer_input" type="text" class="form-control" placeholder="Answer:">
-                <center>
-                    <br>
-                <button id="checkBtn" style="width:30%" class="btn btn-success" onclick="checkBtn()">Check</button>
-                </center>
-                <div id="output" class="col-lg-6"></div>
+            <div id="output" class="col-lg-6"></div>
                 <br>
                 <br>
-                <h3 id="number_1" style="color:cornflowerblue">Number 1</h3>
-                <input id="word" type="text" class="form-control" placeholder="Number 1">
+                <h3 id="number1" style="color:cornflowerblue">Number 1</h3>
+                <input id="n1" type="text" class="form-control" placeholder="Number 1">
                 <br>
-                <h3 id="number_2" style="color:cornflowerblue">Number 2</h3>
-                <input id="word" type="text" class="form-control" placeholder="Number 2">
+                <h3 id="number2" style="color:cornflowerblue">Number 2</h3>
+                <input id="n2" type="text" class="form-control" placeholder="Number 2">
                 <br>
                 <button id="send_btn" class="btn btn-success" onclick="sendButton()" style="width: 30%">Send</button>
-            </div>
         </center>
-    </div>
+    
     </div>
 </body>

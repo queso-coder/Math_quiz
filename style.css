@@ -16,13 +16,9 @@ body
 	display: inline-block;
 	margin-left: 20px;
 }
-#word
+#n1, #n2
 {
 	width: 60%;
-}
-#word_display
-{
-	letter-spacing: 5px;
 }
 #output
 {
